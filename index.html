@@ -1,0 +1,30 @@
+<head>
+    <script src="script.js" defer></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="design.css">
+    <link rel="icon" type="png" href="logo.png">
+    <title>Meine Persönlichen Todos</title>
+</head>
+
+<body>
+    <main class="todo-page">
+        <header class="profile-header">
+            <div class="profile-image" aria-hidden="true">✓</div>
+            <h1>Meine Aufgaben</h1>
+            <p>Deine Persönliche Liste, was du heute noch zu erledigen hast.</p>
+        </header>
+
+        <section class="todo-section" aria-labelledby="todo-heading">
+            <h2 id="todo-heading">Todo Liste</h2>
+            <form class="todo-form" id="todo-form">
+                <label class="sr-only" for="todo-input">Neue Aufgabe</label>
+                <input type="text" id="todo-input" placeholder="Neue Aufgabe" autocomplete="off">
+                <button type="submit">Hinzufügen</button>
+            </form>
+            <ul class="todo-list" id="todo-list">
+                <li><label><input type="checkbox"> Eine Aufgabe eintragen</label></li>
+            </ul>
+        </section>
+    </main>
+    <a class="credit" href="https://github.com/Pil0tFullbog" target="_blank" rel="noopener noreferrer">Made By Pil0t_Fullbog</a>
+</body>
