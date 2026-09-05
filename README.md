@@ -4,11 +4,11 @@ Eine kleine Todo-App mit dunklem Glow-Design.
 
 ## Funktionen
 
-- Todos hinzufuegen
-- Todos abhaken und mit Animation entfernen
+- Todos hinzufügen
+- Todos abhaken
 - Todos lokal im Browser speichern
-- Aufgaben nach dem erneuten Oeffnen wieder anzeigen
-- Responsive Darstellung fuer Desktop und Smartphone
+- Aufgaben nach dem erneuten öffnen wieder anzeigen
+- Responsive Darstellung für Desktop und Smartphone
 
 ## Dateien
 
@@ -19,9 +19,9 @@ Eine kleine Todo-App mit dunklem Glow-Design.
 
 ## Starten
 
-`index.html` direkt im Browser oeffnen.
+`index.html` direkt im Browser öffnen.
 
-Die Aufgaben werden nur lokal im verwendeten Browser gespeichert. Es wird kein Server benoetigt.
+Die Aufgaben werden nur lokal im verwendeten Browser gespeichert. Es wird kein Server benötigt.
 
 ## Autor
 
